@@ -36,4 +36,10 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Running deploy step
+  
+  deploy2:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Run a one-line script
+        run: echo Running deploy step
